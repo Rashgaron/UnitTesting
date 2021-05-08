@@ -1,0 +1,13 @@
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\bin\Debug\netcoreapp3.1\Mocks.exe
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\bin\Debug\netcoreapp3.1\Mocks.deps.json
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\bin\Debug\netcoreapp3.1\Mocks.runtimeconfig.json
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\bin\Debug\netcoreapp3.1\Mocks.runtimeconfig.dev.json
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\bin\Debug\netcoreapp3.1\Mocks.dll
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\bin\Debug\netcoreapp3.1\Mocks.pdb
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\obj\Debug\netcoreapp3.1\Mocks.csprojAssemblyReference.cache
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\obj\Debug\netcoreapp3.1\Mocks.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\obj\Debug\netcoreapp3.1\Mocks.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\obj\Debug\netcoreapp3.1\Mocks.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\obj\Debug\netcoreapp3.1\Mocks.dll
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\obj\Debug\netcoreapp3.1\Mocks.pdb
+C:\Users\Daniel\Documents\Programacion\UnitTesting\Mocks\obj\Debug\netcoreapp3.1\Mocks.genruntimeconfig.cache

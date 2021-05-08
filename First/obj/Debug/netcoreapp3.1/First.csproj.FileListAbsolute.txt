@@ -1,0 +1,12 @@
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\bin\Debug\netcoreapp3.1\First.exe
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\bin\Debug\netcoreapp3.1\First.deps.json
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\bin\Debug\netcoreapp3.1\First.runtimeconfig.json
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\bin\Debug\netcoreapp3.1\First.runtimeconfig.dev.json
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\bin\Debug\netcoreapp3.1\First.dll
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\bin\Debug\netcoreapp3.1\First.pdb
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\obj\Debug\netcoreapp3.1\First.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\obj\Debug\netcoreapp3.1\First.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\obj\Debug\netcoreapp3.1\First.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\obj\Debug\netcoreapp3.1\First.dll
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\obj\Debug\netcoreapp3.1\First.pdb
+C:\Users\Daniel\Documents\Programacion\UnitTesting\First\obj\Debug\netcoreapp3.1\First.genruntimeconfig.cache

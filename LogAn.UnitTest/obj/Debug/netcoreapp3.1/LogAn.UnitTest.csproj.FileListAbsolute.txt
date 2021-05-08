@@ -1,0 +1,4 @@
+C:\Users\Daniel\Documents\Programacion\UnitTesting\LogAn.UnitTest\obj\Debug\netcoreapp3.1\LogAn.UnitTest.csprojAssemblyReference.cache
+C:\Users\Daniel\Documents\Programacion\UnitTesting\LogAn.UnitTest\obj\Debug\netcoreapp3.1\LogAn.UnitTest.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\Programacion\UnitTesting\LogAn.UnitTest\obj\Debug\netcoreapp3.1\LogAn.UnitTest.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Programacion\UnitTesting\LogAn.UnitTest\obj\Debug\netcoreapp3.1\LogAn.UnitTest.csproj.CoreCompileInputs.cache
