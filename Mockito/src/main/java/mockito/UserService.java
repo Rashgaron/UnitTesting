@@ -9,6 +9,7 @@ public class UserService {
         this.passwordEncoder = passwordEncoder;
     }
 
+
     public boolean isValidUser(String id, String password){
         User user = userRepository.findByID(id);
         return isEnabledUser(user) && isValidPassword(user, password);
@@ -20,6 +21,5 @@ public class UserService {
     private boolean isValidPassword(User user, String password){
         String encodedPassword = passwordEncoder.encode(password);
         return encodedPassword.equals(user.getPasswordHash());
-
     }
 }

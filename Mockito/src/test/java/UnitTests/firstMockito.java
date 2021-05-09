@@ -1,7 +1,6 @@
 package UnitTests;
 
-import mockito.Demo;
-import mockito.PasswordEncoder;
+import mockito.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,7 +11,7 @@ import static org.mockito.Mockito.*;
 
 public class firstMockito {
     PasswordEncoder passwordEncoder = mock(PasswordEncoder.class);
-
+    UserRepository userRepository = mock(UserRepository.class);
 
 
     @Test
@@ -66,4 +65,41 @@ public class firstMockito {
 //        passwordEncoder.encode("b");
 
     }
+    @Test
+    public void isValidUserTest_EnabledUserAndValidPassword_ReturnTrue(){
+        String userID = "user ID";
+        String userPassword = "user Password";
+        User user = new User(userID, userPassword, true);
+
+        when(userRepository.findByID(anyString())).thenReturn(user);
+        when(passwordEncoder.encode(userPassword)).thenReturn(userPassword);
+
+        UserService userService = new UserService(userRepository, passwordEncoder);
+
+        Assert.assertTrue(userService.isValidUser(userID,userPassword));
+
+    }
+    @Test
+    public void isValidUserTest_NotEnabledUserAndValidPassword_ReturnFalse(){
+        String userID = "userID";
+        String userPassword = "userPassword";
+        User user = new User(userID, userPassword , false);
+
+        when(userRepository.findByID(userID)).thenReturn(user);
+        when(passwordEncoder.encode(userPassword)).thenReturn(userPassword);
+        when(passwordEncoder.encode("")).thenThrow(IllegalArgumentException.class);
+
+        UserService userService = new UserService(userRepository, passwordEncoder);
+
+        Assert.assertFalse(userService.isValidUser(userID, userPassword));
+    }
+
+    @Test
+    public void twoArgumentsFunctionTest(){
+        when(passwordEncoder.twoArgumentsFunction(eq(3), anyString())).thenReturn(true);
+
+
+
+    }
+
 }
